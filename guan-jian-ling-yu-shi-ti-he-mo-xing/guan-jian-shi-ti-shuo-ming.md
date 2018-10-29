@@ -8,9 +8,21 @@ SKU 是商品售卖和加入购物车的最小单位, 拥有价格信息,尺码�
 
 ### Order
 
-Order 是系统中大部分流程流转所需要处理的核心对象,从购物车checkout 开始,到付款,拆单,价格管理,物流管理等都需要使用到Order 和OrderService
+Order 是系统中大部分流程流转所需要处理的核心对象,从购物车checkout 开始,到付款,拆单,价格管理,物流管理等都需要使用到Order 和OrderService,主要由Distributor 生成
+
+### Cart
+
+Cart 表示的系统购物车, 用户可以将Sku 加入到购物车
+
+### Distributor
+
+Distributor 是系统中的分销商客户
 
 
+
+### PurchaseOrder
+
+采购单用于系统发送至VMS 的流转订单,通过Distributor 下单后,经订单拆单流程生成出来.
 
 
 
