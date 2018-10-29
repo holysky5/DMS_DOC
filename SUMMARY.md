@@ -5,4 +5,5 @@
 * [关键领域实体和模型](guan-jian-ling-yu-shi-ti-he-mo-xing.md)
   * [关键实体说明](guan-jian-ling-yu-shi-ti-he-mo-xing/guan-jian-shi-ti-shuo-ming.md)
   * [关键流程说明](guan-jian-ling-yu-shi-ti-he-mo-xing/guan-jian-liu-cheng-shuo-ming.md)
+* [数据库模型](shu-ju-ku-mo-xing.md)
 

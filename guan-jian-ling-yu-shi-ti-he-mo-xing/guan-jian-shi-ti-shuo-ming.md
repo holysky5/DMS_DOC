@@ -18,11 +18,13 @@ Cart 表示的系统购物车, 用户可以将Sku 加入到购物车
 
 Distributor 是系统中的分销商客户
 
-
-
 ### PurchaseOrder
 
 采购单用于系统发送至VMS 的流转订单,通过Distributor 下单后,经订单拆单流程生成出来.
+
+### Money
+
+用于抽象系统价格,并能根据传入的CurrencyCode 不同,转化价格.
 
 
 
