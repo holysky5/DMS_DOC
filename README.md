@@ -1,3 +1,4 @@
-# My Awesome Book
+# 新分销系统说明
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本篇文档主要用于描述新系统逻辑说明,业务实体, 系统接口等帮助用户快速了解新分销系统设计,以及后续进行的编码,维护阶段指导
+
