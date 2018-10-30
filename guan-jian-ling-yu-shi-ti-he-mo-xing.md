@@ -16,7 +16,9 @@
 
 * OrderService\(订单服务\)
 
+* ProductPriceService\(商品价格服务\)
 
+* InventoryService\(库存服务\)
 
 
 
