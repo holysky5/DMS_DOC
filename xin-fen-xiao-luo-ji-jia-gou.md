@@ -1,6 +1,6 @@
 ### 系统的拓扑图结构如下
 
-![](/assets/logic_arch.png)
+![](/assets/artifact.png)
 
 #### 1. 客户端层
 
