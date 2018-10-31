@@ -53,12 +53,13 @@ Web 层主要包括用户通过Internet 到达网关这一层,具体方式为B�
 
 ### 4. 存储层
 
-存储层提供了系统的数据存储\(mongo\),客户端登录用户追踪,缓存处理\(redis\),搜索服务\(solr\)等处理dao,  mongodb 采用最新版,可以使用事务,springboot也采用最新版
+存储层提供了系统的数据存储\(mongo\),客户端登录用户追踪,缓存处理\(redis\),搜索服务\(solr\)等处理dao,  mongodb 采用最新版,可以使用事务,目前为了维护和避免跨库join 暂时不分库就是单一mongo. 微服务的模块划分也是按照粗粒度和事务完整性角度来实现
 
 ### 系统框架选择
 
-* 后端主要框架就是spring cloud的一系列产品微服务产品, 配合shiro\(权限管理\), solr\(搜索服务\) mongo4\(存储服务\) rabbitmq\(系统间通信\) 搭建基本的框架. 具体的代码文档参考代码库中的README.MD
-* 后端框架基本上就是vue 或者react 有成熟组件库的admin
+* 后端主要框架就是spring cloud的一系列产品微服务产品, 配合shiro\(权限管理\), solr\(搜索服务\) mongo4\(存储服务\) rabbitmq\(系统间通信\) 搭建基本的框架.,部署方式采用单jar包+java service wrapper 的形式. 具体的
+
+* 后端框架基本上就是vue 或者react 有成熟组件库的admin, 
 
 
 
