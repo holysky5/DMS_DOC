@@ -62,9 +62,9 @@ Web 层主要包括用户通过Internet 到达网关这一层,具体方式为B�
 
 ### 系统框架选择
 
-* 后端主要框架就是spring cloud的一系列产品微服务产品, 配合shiro\(权限管理\), solr\(搜索服务\) mongo4\(存储服务\) rabbitmq\(系统间通信\) 搭建基本的框架.,部署方式采用单jar包+java service wrapper 的形式. 具体的
+* 后端主要框架就是spring cloud的一系列产品微服务产品, 配合shiro\(权限管理\), solr\(搜索服务\) mongo4\(存储服务\) rabbitmq\(系统间通信\) 搭建基本的框架.,部署方式采用单jar包+java service wrapper 的形式. 后期可以采用docker 的形式
 
-* 后端框架基本上就是vue 或者react 有成熟组件库的admin,
+* 前端框架 如果都是移动组主要开发的话就是 vue + element ui \(都是有良好文档支持的\),如果有其他组来支持的话可以采用其他react等框架
 
 
 
