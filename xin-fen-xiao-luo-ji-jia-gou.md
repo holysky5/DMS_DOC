@@ -2,6 +2,10 @@
 
 ![](/assets/artifact.png)
 
+### 0. Gateway
+
+系统Gateway 主要包含nginx 到spring cloud zuul 的形式来进行路由,鉴权和sessionId 设定
+
 #### 1. 客户端层
 
 Web 层主要包括用户通过Internet 到达网关这一层,具体方式为B端客户使用 小程序,手机 H5 或者浏览器 访问公司服,其中 需要的技术和机器结构为 CDN\(提供图片和部分URL 的加速服务\) Gateway 公司内采用Nginx
@@ -23,6 +27,7 @@ Web 层主要包括用户通过Internet 到达网关这一层,具体方式为B�
 
   * 管理大B和小B客户,拥有客户类型等可扩展的客户信息
   * 客户可以挂载权限信息,角色信息
+  * 权限校验服务
   * 客户可以添加附加属性
 
 * 订单子系统
@@ -59,7 +64,7 @@ Web 层主要包括用户通过Internet 到达网关这一层,具体方式为B�
 
 * 后端主要框架就是spring cloud的一系列产品微服务产品, 配合shiro\(权限管理\), solr\(搜索服务\) mongo4\(存储服务\) rabbitmq\(系统间通信\) 搭建基本的框架.,部署方式采用单jar包+java service wrapper 的形式. 具体的
 
-* 后端框架基本上就是vue 或者react 有成熟组件库的admin, 
+* 后端框架基本上就是vue 或者react 有成熟组件库的admin,
 
 
 
